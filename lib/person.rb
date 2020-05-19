@@ -1,8 +1,8 @@
 class Person
-    @@all = []
-
     attr_accessor :payments, :bath, :call, :convo, :hygiene, :happiness, :bank_account
     attr_reader :name
+
+    @@all = []
 
     def initialize name
         @name = name
@@ -86,14 +86,4 @@ class Person
             p "blah blah blah blah blah"
         end
     end
-
-
-
-    
-
-
-    
-
-
-
 end
